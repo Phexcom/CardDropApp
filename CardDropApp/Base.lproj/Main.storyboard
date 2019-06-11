@@ -24,7 +24,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" reuseIdentifier="Cell" id="bQx-Bv-hyy" customClass="CategoryCollectionViewCell" customModule="CardDropApp" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="bQx-Bv-hyy" customClass="CategoryCollectionViewCell" customModule="CardDropApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -112,12 +112,14 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
+                        <outlet property="delegate" destination="PYr-8F-V5l" id="333-CE-DjF"/>
                         <segue destination="mFy-91-R4G" kind="relationship" relationship="rootViewController" id="DXo-i5-hUP"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWR-3l-fkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="PYr-8F-V5l" customClass="ScaleTransitioningDelegate" customModule="CardDropApp" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="189.85507246376812" y="143.97321428571428"/>
+            <point key="canvasLocation" x="-87" y="149"/>
         </scene>
     </scenes>
     <resources>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0300913322AFE6F10004215D /* ImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300913222AFE6F10004215D /* ImageSelectionViewController.swift */; };
+		0300913522AFFAC90004215D /* ScaleTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300913422AFFAC90004215D /* ScaleTransitioningDelegate.swift */; };
 		0353AB7422AA7A3200F5CF5F /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353AB7322AA7A3200F5CF5F /* CategoryCollectionViewCell.swift */; };
 		037B544422AA69F9001340EF /* OverviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B544322AA69F9001340EF /* OverviewCollectionViewController.swift */; };
 		52A0E2C0212C61B7001079CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0E2BF212C61B7001079CA /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0300913222AFE6F10004215D /* ImageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionViewController.swift; sourceTree = "<group>"; };
+		0300913422AFFAC90004215D /* ScaleTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScaleTransitioningDelegate.swift; path = Assets.xcassets/ScaleTransitioningDelegate.swift; sourceTree = "<group>"; };
 		0353AB7322AA7A3200F5CF5F /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		037B544322AA69F9001340EF /* OverviewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCollectionViewController.swift; sourceTree = "<group>"; };
 		52A0E2BC212C61B7001079CA /* CardDropApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardDropApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				037B544322AA69F9001340EF /* OverviewCollectionViewController.swift */,
 				0300913222AFE6F10004215D /* ImageSelectionViewController.swift */,
 				0353AB7322AA7A3200F5CF5F /* CategoryCollectionViewCell.swift */,
+				0300913422AFFAC90004215D /* ScaleTransitioningDelegate.swift */,
 				52A0E2C3212C61B7001079CA /* Main.storyboard */,
 				52A0E2C6212C61B8001079CA /* Assets.xcassets */,
 				52A0E2C8212C61B8001079CA /* LaunchScreen.storyboard */,
@@ -186,6 +189,7 @@
 				0300913322AFE6F10004215D /* ImageSelectionViewController.swift in Sources */,
 				52A0E2DF212C6212001079CA /* Category.swift in Sources */,
 				52A0E2E0212C6212001079CA /* DataRequest.swift in Sources */,
+				0300913522AFFAC90004215D /* ScaleTransitioningDelegate.swift in Sources */,
 				037B544422AA69F9001340EF /* OverviewCollectionViewController.swift in Sources */,
 				52A0E2DD212C6212001079CA /* Image.swift in Sources */,
 				0353AB7422AA7A3200F5CF5F /* CategoryCollectionViewCell.swift in Sources */,
